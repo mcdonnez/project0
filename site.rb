@@ -7,3 +7,6 @@ require 'sinatra'
 get '/italian' do
    "Ciao!"
  end
+get '/french' do
+  "Bon Jour!"
+end
