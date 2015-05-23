@@ -5,10 +5,9 @@ require 'sinatra'
  get '/' do
    erb :index
  end
-get '/italian' do
-   "Ciao!"
- end
-get '/french' do
-  "Bon Jour!"
+get '/hiking' do
+   erb :hiking
+ end  
+get '/hiking' do
+  "Hello World"
 end
-  
