@@ -8,6 +8,3 @@ require 'sinatra'
 get '/hiking' do
    erb :hiking
  end  
-get '/hiking' do
-  "Hello World"
-end
